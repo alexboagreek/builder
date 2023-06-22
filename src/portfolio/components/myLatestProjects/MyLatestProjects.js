@@ -72,7 +72,7 @@ export const MyLatestProjects = () => {
         </div>
         <div className="row">
           <div className="col-lg-12">
-            <Button btnName={"View more"} btnClass={"view-more-btn"} url={"https://github.com/alexeynikinitin"}/>
+            <Button btnName={"View more"} btnClass={"view-more-btn"} url={"https://github.com/alexboagreek"}/>
           </div>
         </div>
       </div>
