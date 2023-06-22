@@ -1,5 +1,5 @@
 import React from 'react';
-import './tab.scss'
+import './tab.scss';
 
 export const Tab = (
   {

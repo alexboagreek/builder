@@ -10,19 +10,19 @@ import instagram from "../../assets/socialIcon/bx_bxl-instagram.png";
 import facebook from "../../assets/socialIcon/bx_bxl-facebook.png";
 import github from "../../assets/socialIcon/github.png";
 
-import logo from './../../assets/header-footer/logo-red.png'
+import logo from './../../assets/header-footer/favicon.png'
 import menuitem from './../../assets/header-footer/menu-hamburger.png'
 import closeMenuItem from './../../assets/header-footer/close-menu-icon.png'
 
 export const Header = () => {
   const initialSocialIcons = [
     {urlIcon: facebook, urlSocial: "#"},
-    {urlIcon: linkedIn, urlSocial: "https://www.linkedin.com/in/alexeinikitin/"},
-    {urlIcon: instagram, urlSocial: "https://instagram.com/alexalex_2576?utm_medium=copy_link"},
-    {urlIcon: github, urlSocial: "https://github.com/alexeynikinitin"},
+    {urlIcon: linkedIn, urlSocial: "https://www.linkedin.com/mwlite/profile/in/aleksandr-sourkov-434a86205/"},
+    {urlIcon: instagram, urlSocial: "#"},
+    {urlIcon: github, urlSocial: "https://github.com/alexboagreek"},
   ]
-  const [isScrolled, setIsScrolled] = useState(false)
-  const [isVisible, setIsVisible] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {

@@ -2,13 +2,13 @@ import './contacts.scss'
 import axios from "axios";
 import {useFormik} from "formik";
 import React, {useState} from 'react';
-import './../../commons/button/button.scss'
+import './../../commons/button/button.scss';
 import Modal from "../../commons/modal/Modal";
-import photo from './../../assets/footer/foto3.jpg'
+import photo from './../../assets/aboutMe/javascripcher_js.jpg';
 
 export const Contacts = () => {
-  const [isShow, setIsShow] = useState(false)
-  const [isDisable, setIsDisable] = useState(false)
+  const [isShow, setIsShow] = useState(false);
+  const [isDisable, setIsDisable] = useState(false);
 
   const formik = useFormik({
     initialValues: {
@@ -59,9 +59,9 @@ export const Contacts = () => {
                 <h2>Contact Me.</h2>
                 <p className="description">
                   {`I am available for work. Connect with me via phone: ` }
-                  <a href="tel:+375292592648">8 029 259-26-48</a>
+                  <a href="tel:+375292592648">+7 953 975-36-51</a>
                   {` or email: `}
-                  <a href="mailto:alexeynikinitin@yandex.by">alexeynikinitin@yandex.by</a>
+                  <a href="mailto:alexeynikinitin@yandex.by">javascriptcher@gmail.com</a>
                 </p>
               </div>
               <div className="form_wrapper text-lg-start">

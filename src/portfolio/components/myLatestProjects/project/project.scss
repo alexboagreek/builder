@@ -28,8 +28,8 @@
     border-radius: 5px;
 
     &::before {
-      background-color: #f6004c;
-      background-image: linear-gradient(#f6004c 10%, #000);
+      background-color: rgb(12, 112, 12);;
+      background-image: linear-gradient(rgb(12, 112, 12), 10%, #000);
       position: absolute;
       content: "";
       top: 0;

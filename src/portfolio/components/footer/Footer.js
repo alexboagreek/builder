@@ -2,20 +2,20 @@ import React from 'react';
 import './footer.scss'
 import {SocialIcon} from "../../commons/socialIcon/SocialIcon";
 
-import facebook from './../../assets/socialIcon/bx_bxl-facebook.png'
-import linkedIn from './../../assets/socialIcon/bx_bxl-linkedin.png'
-import instagram from './../../assets/socialIcon/bx_bxl-instagram.png'
+import facebook from './../../assets/socialIcon/bx_bxl-facebook.png';
+import linkedIn from './../../assets/socialIcon/bx_bxl-linkedin.png';
+import instagram from './../../assets/socialIcon/bx_bxl-instagram.png';
 import github from "../../assets/socialIcon/github.png";
 
-import logo from './../../assets/header-footer/logo-red.png'
+import logo from './../../assets/header-footer/favicon.png';
 
 export const Footer = () => {
 
   const initialSocialIcons = [
     {urlIcon: facebook, urlSocial: "#"},
-    {urlIcon: linkedIn, urlSocial: "https://www.linkedin.com/in/alexeinikitin/"},
-    {urlIcon: instagram, urlSocial: "https://instagram.com/alexalex_2576?utm_medium=copy_link"},
-    {urlIcon: github, urlSocial: "https://github.com/alexeynikinitin"},
+    {urlIcon: linkedIn, urlSocial: "https://www.linkedin.com/mwlite/profile/in/aleksandr-sourkov-434a86205"},
+    {urlIcon: instagram, urlSocial: "#"},
+    {urlIcon: github, urlSocial: "https://github.com/alexboagreek"},
   ]
 
   return (
@@ -39,7 +39,7 @@ export const Footer = () => {
           <div className="col-lg-4 col-md-4 col-sm-6 col-12">
             <div className="text">
               <p>
-                Alexey Nikitin
+                Aleksandr Sourkov
               </p>
             </div>
           </div>

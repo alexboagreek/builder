@@ -44,14 +44,14 @@ export const TabPanel = ({tabs}) => {
       <div className={`tab_panel ${tabs[2].selected ? "visible" : ""}`}>
         <ul>
           <li>
-            <span>Front-end developer</span>
-            <span> - Learning app “Memorization Cards</span>
-            <p>02/2022 - present</p>
+            <span>FrontEnd developer</span>
+            <span> - Init app "News aggregator"</span>
+            <p>04/2022 - 11/2022</p>
           </li>
           <li>
-            <span>Front-end  developer</span>
-            <span> - Social project “Ta Na”</span>
-            <p>08/2021 - 02/2022</p>
+            <span>FrontEnd  developer</span>
+            <span> - Freelancer</span>
+            <p>02/2023 - present</p>
           </li>
         </ul>
       </div>
@@ -59,24 +59,19 @@ export const TabPanel = ({tabs}) => {
       <div className={`tab_panel ${tabs[3].selected ? "visible" : ""}`}>
         <ul>
           <li>
-            <span>Front-end developer</span>
-            <span> - IT-Incubator</span>
-            <p>2021 - 2022</p>
+            <span>FrontEnd developer</span>
+            <span> - MethEd</span>
+            <p>2022 - present</p>
           </li>
           <li>
-            <span>HTML5 / CSS3</span>
-            <span> - Brainscloud</span>
-            <p>2021</p>
+            <span>JavaScript developer</span>
+            <span> - Rolling Scopes School</span>
+            <p>02.2021 - 02.2022</p>
           </li>
           <li>
-            <span>Back-end developer</span>
-            <span> - JavaRush</span>
-            <p>2019 - 2020</p>
-          </li>
-          <li>
-            <span>Operation of the air transport</span>
-            <span> - Military Academy, Belarus, Minsk</span>
-            <p>2012 - 2017</p>
+            <span>Web-developer</span>
+            <span> - Nordic IT School</span>
+            <p>04.2020 - 11.2020</p>
           </li>
         </ul>
       </div>

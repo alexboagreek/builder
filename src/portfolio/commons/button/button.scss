@@ -32,9 +32,9 @@
     }
 
     &:hover {
-      border: 2px solid rgb(249, 0, 77);
+      border: 2px solid rgb(12, 112, 12);
       transform: translateY(-3px);
-      background: rgb(249, 0, 77);
+      background: rgb(12, 112, 12);
       color: #fff;
     }
   }
@@ -48,8 +48,8 @@
   }
 
   a {
-    border: 2px solid rgb(249, 0, 77);
-    background: #f9004d;
+    border: 2px solid rgb(12, 112, 12);
+    background: rgb(12, 112, 12);
     font-size: 16px;
     letter-spacing: 2px;
     padding: 15px 40px;
@@ -63,7 +63,7 @@
 
     &:hover {
       background: transparent;
-      color: rgb(249, 0, 77);
+      color: rgb(12, 112, 12);
       box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .1);
       transform: translateY(-5px);
     }
@@ -99,14 +99,14 @@
     background: #fff;
 
     a {
-      color: #f9004d;
+      color: rgb(12, 112, 12);
     }
   }
 }
 
 .contact-btn {
-  border: 2px solid #f9004d;
-  background: #f9004d;
+  border: 2px solid rgb(12, 112, 12);
+  background: rgb(12, 112, 12);
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 10px 45px;
@@ -128,7 +128,7 @@
 
   &:hover {
     background: transparent;
-    color: #f9004d;
+    color: rgb(12, 112, 12);
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .1);
     transform: translateY(-5px);
   }
@@ -151,9 +151,9 @@
   }
 
   &:hover {
-    border-color: #f9004d;
+    border-color: rgb(12, 112, 12);
     transform: translateY(-3px);
-    background: #f9004d;
+    background: rgb(12, 112, 12);
     border-radius: 6px;
 
     a {
